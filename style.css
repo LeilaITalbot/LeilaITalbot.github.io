@@ -1,0 +1,58 @@
+body{
+  font-family: 'Lato', sans-serif;
+  line-height:40px;
+    background-color:indigo;
+  background-image:
+    repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+    linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 70px 120px;
+  margin:0px;
+}
+
+
+h1{
+  color:#180029;
+  font-size:48px;
+  background-color:white;
+  width:100%;
+  margin:0px;
+  padding:40px;
+}
+h2{
+  background-color:white;
+  padding:30px;
+  width:50%;
+  color:#180029;
+  text-decoration: none;
+  float:right;
+  font-size:24px;
+}
+p{
+  color:#180029;
+  background-color:white;
+  font-size:24px;
+  text-align:center;
+  font-weight:bold;
+  padding:20px;
+}
+.bigbox{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+button{
+  color:#180029;
+  border:none;
+  background-color:white;
+
+}
+.sta{
+  color:#180029;
+  text-align:left;
+}
+a{
+  text-decoration: none;
+}
